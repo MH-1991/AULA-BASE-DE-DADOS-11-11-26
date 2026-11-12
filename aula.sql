@@ -1,4 +1,4 @@
-CREATE DATABASE Exemplo;
+create DATABASE Exemplo;
 
 USE Exemplo;
 
@@ -6,4 +6,5 @@ CREATE TABLE Aluno(
 	id INT AUTO_INCREMENT PRIMARY KEY,
     Nome VARCHAR(50),
     Idade INT
-    );
+);
+select *from Aluno
